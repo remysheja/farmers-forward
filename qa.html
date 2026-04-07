@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Q&amp;A | Farmers Foward</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-shell">
+      <div class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">FF</span>
+          <span class="brand-copy">
+            <span class="brand-name">Farmers Foward</span>
+            <span class="brand-tag">Answers, referrals, and better questions to ask next</span>
+          </span>
+        </a>
+        <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="main-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a href="donations.html">Donations</a>
+        <a class="active" href="qa.html">Q&amp;A</a>
+      </nav>
+
+      <div class="hero-panel hero-panel-single">
+        <div class="hero-copy">
+          <span class="eyebrow">Questions and answers</span>
+          <h1>A simpler place to ask for help.</h1>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-shell">
+      <div class="section-intro">
+        <div>
+          <h2>Common topics we can help with</h2>
+        </div>
+      </div>
+
+      <div class="faq-grid">
+        <article class="faq-card">
+          <h3>Programs and workshops</h3>
+          <p>Questions about dates, enrollment, expectations, and who a program is designed for.</p>
+        </article>
+        <article class="faq-card">
+          <h3>Soil and conservation</h3>
+          <p>Questions about testing, amendments, field practices, or where to find additional expertise.</p>
+        </article>
+        <article class="faq-card">
+          <h3>Food access and partnerships</h3>
+          <p>Questions from schools, nonprofits, and growers interested in collaborative community work.</p>
+        </article>
+        <article class="faq-card">
+          <h3>Funding and donations</h3>
+          <p>Questions about giving, sponsorships, and how contributions support the mission.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="form-shell">
+      <aside class="form-aside">
+        <h2>Helpful tips</h2>
+        <ul class="form-notes">
+          <li>Choose the closest category so we can route your question well.</li>
+          <li>Include your location if the answer depends on local services or partners.</li>
+          <li>If your need is urgent or program-specific, use the contact page for direct outreach.</li>
+        </ul>
+      </aside>
+
+      <section>
+        <h2>Submit a question</h2>
+        <form action="#" method="post">
+          <div class="form-grid">
+            <div>
+              <label for="qa-name">Full name</label>
+              <input type="text" id="qa-name" name="qa-name" placeholder="Your full name">
+            </div>
+            <div>
+              <label for="qa-email">Email address</label>
+              <input type="email" id="qa-email" name="qa-email" placeholder="name@example.org" required>
+            </div>
+            <div class="field-full">
+              <label for="category">Question category</label>
+              <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option value="programs">Programs and training</option>
+                <option value="soil">Soil health</option>
+                <option value="animals">Animal care</option>
+                <option value="food">Food access and partnerships</option>
+                <option value="donation">Donations and sponsorships</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div class="field-full">
+              <label for="question">Your question</label>
+              <textarea id="question" name="question" placeholder="Tell us what you need help understanding or finding." required></textarea>
+            </div>
+          </div>
+          <button type="submit">Send question</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-shell">
+      <p class="footer-note">Good answers depend on clear routing, approachable language, and timely follow-up.</p>
+      <div class="footer-links">
+        <a href="contact.html">Direct Contact</a>
+        <a href="resources.html">Resource Hub</a>
+        <a href="index.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

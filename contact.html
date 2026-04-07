@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Farmers Foward</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-shell">
+      <div class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">FF</span>
+          <span class="brand-copy">
+            <span class="brand-name">Farmers Foward</span>
+            <span class="brand-tag">A clearer path to support, referrals, and partnership</span>
+          </span>
+        </a>
+        <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="main-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a class="active" href="contact.html">Contact</a>
+        <a href="donations.html">Donations</a>
+        <a href="qa.html">Q&amp;A</a>
+      </nav>
+
+      <div class="hero-panel hero-panel-top">
+        <div class="hero-copy">
+          <span class="eyebrow">Connect with us</span>
+          <h1>Reach the right person faster.</h1>
+        </div>
+
+        <figure class="hero-card">
+          <img src="images/team-harvesting-field-greens.jpg" alt="Team members harvesting greens together in a field">
+          <figcaption>Structured outreach makes it easier to route farmers to relevant programs and referrals.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-shell">
+      <div class="section-intro">
+        <div>
+          <h2>Contact options</h2>
+          <p>Use whichever route fits your question best.</p>
+        </div>
+      </div>
+
+      <div class="contact-grid">
+        <article class="contact-card">
+          <h3>Email</h3>
+          <p><strong>support@farmersfoward.org</strong></p>
+          <p>Best for program inquiries, referrals, and written follow-up.</p>
+        </article>
+        <article class="contact-card">
+          <h3>Phone</h3>
+          <p><strong>(555) 248-3476</strong></p>
+          <p>Available Monday through Friday, 9:00 a.m. to 5:00 p.m.</p>
+        </article>
+        <article class="contact-card">
+          <h3>Office</h3>
+          <p>123 Harvest Lane<br>Green Valley, ST 12345</p>
+          <p>Visits by appointment for workshops, advising, and community meetings.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="form-shell">
+      <aside class="form-aside">
+        <h2>Before you submit</h2>
+        <ul class="form-notes">
+          <li>Tell us whether you are a grower, partner organization, volunteer, or donor.</li>
+          <li>Include your location if you want local program or service referrals.</li>
+          <li>Use the message field to describe the main challenge you are trying to solve.</li>
+        </ul>
+      </aside>
+
+      <section>
+        <h2>Send a message</h2>
+        <form action="#" method="post">
+          <div class="form-grid">
+            <div>
+              <label for="name">Full name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div>
+              <label for="email">Email address</label>
+              <input type="email" id="email" name="email" placeholder="name@example.org" required>
+            </div>
+            <div>
+              <label for="phone">Phone number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Optional">
+            </div>
+            <div>
+              <label for="role">I am a...</label>
+              <select id="role" name="role">
+                <option value="">Select one</option>
+                <option value="farmer">Farmer or rancher</option>
+                <option value="partner">Community partner</option>
+                <option value="volunteer">Volunteer</option>
+                <option value="donor">Donor</option>
+              </select>
+            </div>
+            <div>
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" placeholder="Your city">
+            </div>
+            <div>
+              <label for="state">State</label>
+              <input type="text" id="state" name="state" placeholder="Your state">
+            </div>
+            <div class="field-full">
+              <label for="topic">What do you need help with?</label>
+              <select id="topic" name="topic">
+                <option value="">Select a topic</option>
+                <option value="soil">Soil and conservation support</option>
+                <option value="training">Training and workshops</option>
+                <option value="funding">Funding or application help</option>
+                <option value="partnership">Community partnership</option>
+                <option value="volunteer">Volunteer coordination</option>
+              </select>
+            </div>
+            <div class="field-full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us what you're working on and how we can help." required></textarea>
+            </div>
+          </div>
+          <button type="submit">Submit request</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-shell">
+      <p class="footer-note">Good farm support starts with listening carefully and routing people well.</p>
+      <div class="footer-links">
+        <a href="resources.html">View Resources</a>
+        <a href="qa.html">Questions</a>
+        <a href="donations.html">Support the Mission</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>

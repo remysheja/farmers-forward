@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate | Farmers Foward</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-shell">
+      <div class="topbar">
+        <a class="brand" href="index.html">
+          <span class="brand-mark">FF</span>
+          <span class="brand-copy">
+            <span class="brand-name">Farmers Foward</span>
+            <span class="brand-tag">Support farmers, working lands, and local food access</span>
+          </span>
+        </a>
+        <button class="hamburger" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="site-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+      <nav class="main-nav" id="site-nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="resources.html">Resources</a>
+        <a href="contact.html">Contact</a>
+        <a class="active" href="donations.html">Donations</a>
+        <a href="qa.html">Q&amp;A</a>
+      </nav>
+
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <span class="eyebrow">Support the mission</span>
+          <h1>Give in a way that feels tangible and grounded.</h1>
+          <p class="hero-note">Support training, land stewardship, and community food access through giving that creates practical, visible impact.</p>
+        </div>
+
+        <figure class="hero-card">
+          <img src="images/harvest-basket-vegetables.jpg" alt="Basket of freshly harvested vegetables ready for community use">
+          <figcaption>Giving works best when supporters can clearly see who benefits and how the support is used.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-shell">
+      <div class="section-intro">
+        <div>
+          <h2>Where donations go</h2>
+        </div>
+      </div>
+
+      <div class="support-grid">
+        <article class="support-card">
+          <h3>Farmer training</h3>
+          <p>Field days, workshops, and practical coaching on soil health, irrigation, and business planning.</p>
+        </article>
+        <article class="support-card">
+          <h3>Equipment and materials</h3>
+          <p>Small grants for tools, seeds, and supplies that help farms expand production capacity.</p>
+        </article>
+        <article class="support-card">
+          <h3>Market access</h3>
+          <p>Support for sales planning, community partnerships, and producer-to-buyer connections.</p>
+        </article>
+        <article class="support-card">
+          <h3>Food security partnerships</h3>
+          <p>Programs that connect local farms with schools, food pantries, and neighborhood initiatives.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="form-shell">
+      <aside class="form-aside">
+        <h2>Giving options</h2>
+        <ul class="form-notes">
+          <li>Choose a one-time gift for immediate program support.</li>
+          <li>Select monthly giving to sustain workshops and advising.</li>
+          <li>Use the message field if you want to support a specific initiative.</li>
+        </ul>
+      </aside>
+
+      <section>
+        <h2>Donation form</h2>
+        <form action="#" method="post">
+          <div class="form-grid">
+            <div>
+              <label for="donor-name">Full name</label>
+              <input type="text" id="donor-name" name="donor-name" placeholder="Your full name" required>
+            </div>
+            <div>
+              <label for="donor-email">Email address</label>
+              <input type="email" id="donor-email" name="donor-email" placeholder="name@example.org" required>
+            </div>
+            <div>
+              <label for="donor-phone">Phone number</label>
+              <input type="tel" id="donor-phone" name="donor-phone" placeholder="Optional">
+            </div>
+            <div>
+              <label for="donation-type">Donation type</label>
+              <select id="donation-type" name="donation-type" required>
+                <option value="">Select type</option>
+                <option value="one-time">One-time gift</option>
+                <option value="monthly">Monthly gift</option>
+                <option value="in-kind">In-kind support</option>
+              </select>
+            </div>
+            <div>
+              <label for="amount">Amount</label>
+              <input type="number" id="amount" name="amount" min="1" placeholder="Amount in USD" required>
+            </div>
+            <div>
+              <label for="focus-area">Focus area</label>
+              <select id="focus-area" name="focus-area">
+                <option value="">Choose an area</option>
+                <option value="training">Training programs</option>
+                <option value="equipment">Equipment grants</option>
+                <option value="market">Market access</option>
+                <option value="food-security">Food security partnerships</option>
+              </select>
+            </div>
+            <div class="field-full">
+              <label for="donation-message">Optional message</label>
+              <textarea id="donation-message" name="donation-message" placeholder="Share why you want to support this work."></textarea>
+            </div>
+          </div>
+          <button type="submit">Continue to give</button>
+        </form>
+      </section>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-shell">
+      <p class="footer-note">Every contribution helps make farm support more accessible, practical, and community-centered.</p>
+      <div class="footer-links">
+        <a href="about.html">See the Mission</a>
+        <a href="resources.html">See the Work</a>
+        <a href="contact.html">Ask About Partnerships</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
